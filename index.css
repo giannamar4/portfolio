@@ -1,0 +1,24 @@
+body {
+  background-color: lightgrey;
+  font-family: monospace;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin: 0;
+  padding: 1.9em;
+  overflow: hidden;
+  background-color: white;
+  border-bottom: 2px solid black;
+}
+
+li a {
+  padding: 10px;
+  font-size: 2em;
+  justify-items: flex-end;
+}
+a:hover {
+  color: lightseagreen;
+}
