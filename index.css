@@ -4,21 +4,19 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-nav ul {
+.nav{
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   list-style-type: none;
   margin: 0;
-  padding: 2em;
-  overflow: hidden;
   border: 2px solid black;
   justify-content: center;
-  flex-direction: row;
+  
   background-color: lightgrey;
-  flex-wrap: wrap;
+
 }
 
-li a {
+.item {
   padding: 1em;
   font-size: 2em;
   align-items: center;
@@ -26,33 +24,66 @@ li a {
 a:hover {
   color: white;
 }
-#me {
-  margin-top: 2em;
-  margin-left: 2em;
-  padding: 0.5em;
-  font-size: 3em;
-  border: 2px solid black;
-  height: fit-content;
-  width: fit-content;
-  background-color: lightgrey;
-  text-align: center;
-  text-shadow: 2px 2px white;
-  float: left;
-}
-
 h1:hover {
   color: rgba(245, 245, 245, 0.753);
 }
-img {
-  float: right;
-  justify-content: space-between;
+#me {
+
+  padding: 0.5em;
+  font-size: 3em;
   border: 2px solid black;
-  position: static;
+  height:fit-content;
+  width: 10em;
+  background-color: lightgrey;
+  text-align: center;
+  text-shadow: 2px 2px white;
+  display: block;
+ margin: auto;
+ margin-bottom: 0.5em;
+  
 }
-.home {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-items: center;
-  justify-content: space-evenly;
+
+.about1{
+  margin-left: 2em;
+  padding: 0.5em;
+  font-size: 1.2em;
+  border: 2px solid black;
+  height: fit-content;
+  width: 33em;
+  background-color: lightgrey;
+  text-align: center;
+  padding-bottom: 1em;
+  display: block;
+  margin-bottom: 0.5em;
+  margin: auto;
+ 
+}
+img {
+  border: 2px solid black;
+  display: block;
+  margin:auto;
+ display: block;
+ margin-bottom: 1em;
+ 
+ 
+ 
+}
+
+@media only screen and (max-width: 480px) {
+  nav {
   flex-direction: row;
+    top: 0%;
+    width:100%;
+    
+  }
+  img{
+    position: relative;
+  top: 50%;
+  left: 40%;
+  }
+  #me{
+  display:block;
+  margin-left: 15%;
+  
+  }
 }
