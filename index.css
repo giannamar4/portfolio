@@ -7,19 +7,23 @@ body {
 .nav{
   display: flex;
   flex-wrap:wrap;
-  list-style-type: none;
   margin: 0;
   border: 2px solid black;
-  justify-content: center;
-  
   background-color: lightgrey;
-
+  justify-content: center;
+  padding: .5em;
 }
 
 .item {
   padding: 1em;
   font-size: 2em;
-  align-items: center;
+
+}
+.dropbtn{
+  background-color: lightgrey;
+  border: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1em;
 }
 a:hover {
   color: white;
@@ -28,7 +32,6 @@ h1:hover {
   color: rgba(245, 245, 245, 0.753);
 }
 #me {
-
   padding: 0.5em;
   font-size: 3em;
   border: 2px solid black;
@@ -38,22 +41,22 @@ h1:hover {
   text-align: center;
   text-shadow: 2px 2px white;
   display: block;
- margin: auto;
- margin-bottom: 0.5em;
+  margin: auto;
+  margin-bottom: 0.5em;
   
 }
 
 .about1{
-  margin-left: 2em;
-  padding: 0.5em;
-  font-size: 1.2em;
-  border: 2px solid black;
+  display: block;
   height: fit-content;
   width: 33em;
+  font-size: 1.2em;
+  border: 2px solid black;
   background-color: lightgrey;
   text-align: center;
+  padding: 0.5em;
   padding-bottom: 1em;
-  display: block;
+  margin-left: 2em;
   margin-bottom: 0.5em;
   margin: auto;
  
@@ -62,28 +65,60 @@ img {
   border: 2px solid black;
   display: block;
   margin:auto;
- display: block;
- margin-bottom: 1em;
+  margin-bottom: 1em;
  
  
  
 }
-
-@media only screen and (max-width: 480px) {
-  nav {
-  flex-direction: row;
-    top: 0%;
-    width:100%;
-    
+/* mobile + small tablets */
+@media only screen and (max-width: 650px) {
+  .nav {
+    display:inline-block;
+    position: relative;
   }
   img{
     position: relative;
-  top: 50%;
-  left: 40%;
+    margin-left: 53%;
+    margin-right: 45%;
+    right:20%;
   }
   #me{
   display:block;
   margin-left: 15%;
+  margin-right: 50%;
   
   }
+.dropbtn{
+  cursor:pointer;
+  border:none;
+  padding:1em;
+  background-color: lightgrey;
+}
+.dropdown{
+  position: relative;
+  display:inline-block;
+  margin-bottom: 1em;
+}
+.dropdown-content{
+  display:none;
+  position:absolute;
+  background-color: rgb(202, 173, 177);
+  z-index: 1;
+  border: 2px solid black;
+}
+.dropdown-content a{
+  padding: 1em;
+  display:block;
+  text-decoration:none;
+  color:black;
+}
+.dropdown-content a:hover {background-color:lightgrey;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: lightgrey;
+}
 }
