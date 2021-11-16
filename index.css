@@ -71,16 +71,15 @@ img {
  
 }
 /* mobile + small tablets */
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 620px) {
   .nav {
     display:inline-block;
     position: relative;
   }
   img{
     position: relative;
-    margin-left: 53%;
-    margin-right: 45%;
-    right:20%;
+    right:40%;
+    left:35%;
   }
   #me{
   display:block;
@@ -105,17 +104,21 @@ img {
   background-color: rgb(202, 173, 177);
   z-index: 1;
   border: 2px solid black;
+  
 }
 .dropdown-content a{
   padding: 1em;
   display:block;
   text-decoration:none;
   color:black;
+  cursor: pointer;
+
 }
 .dropdown-content a:hover {background-color:lightgrey;}
 
 .dropdown:hover .dropdown-content {
   display: block;
+  cursor: pointer;
 }
 
 .dropdown:hover .dropbtn {
