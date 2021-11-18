@@ -1,0 +1,25 @@
+body {
+    background-color: lightgrey;
+    font-family: 'Nanum Gothic', sans-serif;
+    background: linear-gradient(to right,
+     lightgrey 30%, rgb(189, 151, 169) 30% 70%);
+  }
+  
+.navigation a{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+ text-align: center;
+ font-size:1.8em;
+ letter-spacing: 2px;
+ padding:1em;
+margin: 0;
+color:white;
+
+
+}
+
+.navigation a:hover{
+text-decoration: rgb(126, 93, 105) underline 4px ;
+cursor:pointer;
+}
