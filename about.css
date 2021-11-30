@@ -1,8 +1,8 @@
 body {
-    background-color: lightgrey;
+    background-color: #B1C9AF;
     font-family: 'Nanum Gothic', sans-serif;
     background: linear-gradient(to right,
-     lightgrey 30%, rgb(189, 151, 169) 30% 70%);
+    #a99ab1 35%, #7C6A86 35% 65%);
   }
   
 .navigation a{
@@ -17,9 +17,14 @@ margin: 0;
 color:white;
 
 
+
 }
 
 .navigation a:hover{
-text-decoration: rgb(126, 93, 105) underline 4px ;
+text-decoration:black underline 4px ;
 cursor:pointer;
+}
+
+#logo{
+margin-top: 0;
 }
