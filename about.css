@@ -1,8 +1,15 @@
+*{
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size: 100%;
+}
+
 body {
     background-color: #B1C9AF;
     font-family: 'Halant', serif;
-    background: linear-gradient(to right,
-    #D2D9CE 63%, #838C7E 37%);
+    background-color: #A4ABCF;
   }
   
 .navigation{
@@ -11,17 +18,14 @@ body {
 
 .navigation a{
 margin-top: 6px;
- font-size:2em;
+ font-size:2.1em;
  letter-spacing: 1px;
  padding:.5em;
 margin: 0;
+
 }
 
 .navigation a:hover{
-text-decoration:#D2D9CE underline 4px ;
+text-decoration:white underline 4px ;
 cursor:pointer;
-}
-
-#home{
-  background-color: white;
 }
