@@ -1,0 +1,53 @@
+body {
+    background-color: #F1F2F6;
+    font-family: 'Playfair Display', serif;
+  }
+h1{
+    position: fixed;
+font-size: 4rem;
+margin-left: 20%;
+padding-top: 1em;
+  }
+  h1:hover{
+color:#A4ABCF;
+transform: scale(1.2);
+  }
+  #me{
+      position: absolute;
+      margin-left: 55%;
+      margin-top: 5.7em;
+      
+      border: 2px solid black;
+
+  }
+  #about{
+font-size: 1.2rem;
+margin-left: 10%;
+margin-right: 54%;
+border: 2px solid black;
+padding:9px 9px 9px 9px;
+margin-top: 13rem;
+  }
+  #git{
+      position: fixed;
+      margin-left:24% ;
+  }
+  #git:hover{
+    transform: scale(1.2);
+  }
+  #insta{
+    position: fixed;
+    margin-left:15% ;
+    padding-top: 7px;
+  }
+  #insta:hover{
+    transform: scale(1.2); 
+  }
+  #message{
+    position: fixed;
+    margin-left:34% ;
+    padding-top: 14px;
+  }
+  #message:hover{
+    transform: scale(1.2);
+  }
