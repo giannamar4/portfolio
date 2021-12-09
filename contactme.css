@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size: 100%;
+  }
+  
+  body {
+      background-color: #F1F2F6;
+      font-family: 'Playfair Display', serif;
+   
+  
+    }
+    
+  .navigation{
+    text-align:end;
+    background-color: #A4ABCF;
+    padding-bottom: 10px;
+  }
+  
+  .navigation a{
+  margin-top: 6px;
+   font-size:2.1em;
+   letter-spacing: 1px;
+   padding:.5em;
+  margin: 0;
+  color:black;
+  text-decoration: none;
+  }
+  
+  .navigation a:hover{
+  text-decoration:white underline 4px ;
+  cursor:pointer;
+  }
+
+  h1{
+      font-size: 4rem;
+      text-align: center;
+      text-decoration: underline;
+  }
+  h1:hover{
+      text-decoration: underline #A4ABCF;
+  }
