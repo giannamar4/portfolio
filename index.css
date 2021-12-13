@@ -64,7 +64,7 @@ margin-top: 10%;
   display: grid;
   grid-template-columns:13em 13em 13em;
   grid-template-areas: "insta  git  message";
-padding-left: 14em;
+padding-left: 12em;
 }
 #git{
   grid-area: "git";
