@@ -99,6 +99,7 @@ footer{
   .navigation{
     text-align: center;
     background-color:#A4ABCF ;
+    /* width:100%; */
   }
   .navigation a{
     text-align: center;
@@ -106,6 +107,7 @@ footer{
   #dropbtn{
     color:black;
     font-size: 2rem;
+    width: 115%;
   }
   
   .dropdown {
@@ -113,8 +115,8 @@ footer{
     border: none;
     outline: none;
     padding: 14px 16px;
-   
     margin: 0;
+    width: 115%;
   }
   
 
@@ -146,11 +148,8 @@ footer{
     display: block;
     cursor:pointer;
 }
-}
 
-  .navigation{
-    width:100%;
-  }
+
  #banner{
    width:100%;
  }
@@ -173,17 +172,17 @@ footer{
     font-size: 3rem;
   }
   #about{
-    margin:0;
+   margin:0;
     padding:0;
     position: relative;
     text-align: center;
     width:90%;
+    
   }
   .icons1{
-    display: grid;
-  grid-template-columns:6em 5em 5em;
-  grid-template-areas: "insta  git  message";
-padding-left: 1rem;
+    display: flex;
+justify-content:space-evenly;
+padding: .5rem;
 margin-left: 10%;
   }
  #insta{
@@ -194,10 +193,13 @@ margin-left: 10%;
   width: 5.6em;
   height: 5.6em;
   padding-top: 2px;
+  padding-left: .6em;
  }
  #message{
    width:8em;
    height: 7.6em;
+   padding-left: 0;
+   margin-left: 0;
  }
   #about{
     font-size: 1.2rem;
@@ -208,4 +210,5 @@ margin-left: 10%;
 footer{
   margin-top: 2em;
   width: 100%;
+}
 }
