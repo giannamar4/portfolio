@@ -12,14 +12,15 @@
     <title>Contact Me!</title>
 </head>
 <body>
-    <nav class="navigation">
+    <nav class="navigation dropdown">
        
         <a id="dropbtn" href="index.html">Home</a>
-         <a href="index.html" href="#hed">About</a>
-         <a>Resume</a>
-         <a href="projects.html">Projects</a>
-         <a href="contactme.html">Contact</a>
-    
+        
+         <a class="dropdown-items" href="index.html" href="#hed">About</a>
+         <a class="dropdown-items" href="resume.html">Resume</a>
+         <a class="dropdown-items" href="projects.html">Projects</a>
+         <a class="dropdown-items" href="contactme.html">Contact</a>
+       
  </nav>
 
  <h1>Contact Me</h1>
@@ -37,8 +38,8 @@
       <label for="subject">Subject</label>
       <textarea id="subject" name="subject" placeholder="Leave a message! :D" style="height:200px"></textarea>
   
-      <button onclick="submit()">Submit</button>
-      <button onclick="reset()">Reset</button>
+      <button id="buttons" onclick="submit()">Submit</button>
+      <button id="buttons" onclick="reset()">Reset</button>
     </form>
   </div>
   

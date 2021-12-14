@@ -17,6 +17,7 @@
     text-align:end;
     background-color: #A4ABCF;
     padding-bottom: 10px;
+   
   }
   
   .navigation a{
@@ -33,7 +34,9 @@
   text-decoration:white underline 4px ;
   cursor:pointer;
   }
-
+#dropbtn{
+  
+}
   h1{
       font-size: 4rem;
       text-align: center;
@@ -59,7 +62,7 @@
     resize: vertical;
   }
   
-  button {
+  #buttons {
     background-color: black;
     color: white;
     padding: .8em 1.2em;
@@ -68,7 +71,7 @@
     cursor: pointer;
   }
   
- button:hover {
+ #buttons:hover {
     background-color: white;
     color:black;
   }
@@ -82,9 +85,60 @@
   footer{
     font-size: .7em;
     text-align: center;
-
+    margin-top: 10rem;
     background-color:#A4ABCF ;
     padding: 1rem;
+    
   }
   @media screen and (max-width:760px) {
+    .navigation{
+      text-align: center;
+      background-color:#A4ABCF ;
+    }
+    .navigation a{
+      text-align: center;
+    }
+    #dropbtn{
+      color:black;
+      font-size: 2rem;
+    }
+    
+    .dropdown {
+      font-size: 1rem;  
+      border: none;
+      outline: none;
+      padding: 14px 16px;
+     
+      margin: 0;
+    }
+    
+  
+    
+    .dropdown-items {
+      display: none;
+      text-decoration: center;
+      background-color: #adb3ce;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-items a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: center;
+     
+    }
+    
+    .dropdown-items a:hover {
+      background-color: #ddd;
+    }
+    
+    
+    .dropdown:hover .dropdown-items {
+      display: block;
+      cursor:pointer;
+  }
   }
