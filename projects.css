@@ -40,3 +40,22 @@
   h1:hover{
     text-decoration: underline #A4ABCF;
   }
+  .dark-mode{
+    background-color:#6a70a5;
+    color:black;
+  }
+  footer{
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top:14.5em;
+    background-color:#A4ABCF ;
+    padding: 2rem;
+  }
+  button {
+    font-family: 'Playfair Display', serif;
+    background-color: #7882b4;
+    padding:.5em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
