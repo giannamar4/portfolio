@@ -12,7 +12,10 @@
    
   
     }
-    
+    .dark-mode{
+      background-color:#6a70a5;
+      color:white;
+    }
   .navigation{
     text-align:end;
     background-color: #A4ABCF;
@@ -78,7 +81,7 @@
   
   .contactForm {
     border-radius: 5px;
-    background-color: #f2f2f2;
+  
     padding: 20px;
   }
 

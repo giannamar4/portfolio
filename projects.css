@@ -33,3 +33,10 @@
   text-decoration:white underline 4px ;
   cursor:pointer;
   }
+  h1{
+    text-align: center;
+    font-size: 3.8em;
+  }
+  h1:hover{
+    text-decoration: underline #A4ABCF;
+  }
