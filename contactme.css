@@ -93,6 +93,7 @@
     padding: 1rem;
     
   }
+  /* smaller screen media query */
   @media screen and (max-width:760px) {
     .navigation{
       text-align: center;

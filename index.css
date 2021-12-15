@@ -110,6 +110,7 @@ button {
   border-radius: 4px;
   cursor: pointer;
 }
+/* media query for smaller devices */
 @media screen and (max-width:1200px) {
   .navigation{
     text-align: center;

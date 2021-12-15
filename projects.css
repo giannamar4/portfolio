@@ -90,6 +90,7 @@ p:hover{
     text-align: center;
     font-size: 1.3em;
   }
+  /* smaller screen media query */
   @media screen and (max-width:781px) {
     .navigation{
       text-align: center;
